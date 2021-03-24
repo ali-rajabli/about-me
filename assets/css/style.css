@@ -22,28 +22,13 @@ body {
     position: relative;
 }
 
-#container-head {
-    display: flex;
-    justify-content: space-between;
-}
-
-h1,
-h2,
-h3,
-p {
-    margin-bottom: 30px;
-}
-
-p:last-child {
-    margin-bottom: 0;
-}
-
 h1,
 h2,
 h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
     color: #C3073F;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -51,6 +36,7 @@ h1 {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #950740;
+    margin: 3px;
 }
 
 h2,
@@ -58,8 +44,17 @@ h3 {
     font-size: 22px;
 }
 
+p {
+    margin-bottom: 30px;
+}
+
 
 /* --------------HEADER--------------- */
+
+#container-head {
+    display: flex;
+    justify-content: space-between;
+}
 
 #masthead {
     left: 0;
@@ -194,10 +189,6 @@ h3,
     max-width: 1100px;
     margin: 0 auto;
     clear: both;
-}
-
-h1 {
-    margin: 3px;
 }
 
 #contact-form ul {
