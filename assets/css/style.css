@@ -7,7 +7,6 @@ body {
     background-size: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
 }
 
 * {
@@ -20,6 +19,7 @@ body {
     margin: 0 auto;
     clear: both;
     flex: 1;
+    position: relative;
 }
 
 #container-head {
@@ -118,6 +118,10 @@ nav a {
 /* ---------------FOOTER----------------- */
 
 footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
     padding: 15px 0;
     clear: both;
     color: #dddddd;
@@ -245,21 +249,7 @@ button {
 
 #portf {
     text-align: center;
-}
-
-#port-body {
-    position: relative;
-}
-
-#portf {
     font-size: 70px;
     margin-top: 300px;
     font-weight: bolder;
-}
-
-#port-foot {
-    bottom: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
 }
