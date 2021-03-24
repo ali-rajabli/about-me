@@ -18,6 +18,7 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     clear: both;
+    flex: 1;
 }
 
 #container-head {
@@ -70,6 +71,7 @@ h3 {
     color: #fff;
     background: linear-gradient(#1A1A1D, #0c0c0e);
     border-bottom: 2px solid #C3073F;
+    flex: 1;
 }
 
 #logo {
