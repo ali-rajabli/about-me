@@ -1,0 +1,26 @@
+html {
+    padding-bottom: 50px;
+    min-height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 15px 0;
+    color: #dddddd;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(#1A1A1D, #0c0c0e);
+    border-top: 2px solid #C3073F;
+    text-align: center;
+}
