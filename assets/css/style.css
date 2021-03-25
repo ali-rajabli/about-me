@@ -55,9 +55,8 @@ p {
     left: 0;
     top: 0;
     position: fixed;
-    z-index: 99;
+    z-index: 1;
     width: 100%;
-    margin: 0 0 30px;
     overflow: auto;
     color: #fff;
     background: linear-gradient(#1A1A1D, #0c0c0e);
@@ -147,7 +146,7 @@ h3,
     padding: 10px;
     background: rgb(26, 26, 29, 0.7);
     border: 1px solid #1A1A1D;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .auth-image {
@@ -159,7 +158,7 @@ h3,
 }
 
 #main-container-about {
-    padding-top: 110px;
+    padding-top: 130px;
 }
 
 .container-about {
@@ -213,7 +212,7 @@ button {
     padding: 10px;
     background: rgb(26, 26, 29, 0.7);
     border: 1px solid #1A1A1D;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 #portfolio {
