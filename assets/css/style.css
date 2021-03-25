@@ -101,7 +101,7 @@ nav a+a::before {
     color: #6f2232;
 }
 
-nav a {
+nav>a {
     font-family: "Comic Sans MS";
     font-size: 22px;
     font-weight: 500;
@@ -116,7 +116,7 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     padding: 15px 0;
     clear: both;
     color: #dddddd;
@@ -166,6 +166,7 @@ h3,
     float: left;
     width: 100%;
     max-width: 650px;
+    height: auto;
     padding: 10px;
     background: rgb(26, 26, 29, 0.7);
     border: 1px solid #1A1A1D;
