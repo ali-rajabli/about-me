@@ -15,9 +15,6 @@ body {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    clear: both;
-    flex: 1;
-    position: relative;
 }
 
 h1,
@@ -216,10 +213,10 @@ button {
     padding: 10px;
     background: rgb(26, 26, 29, 0.7);
     border: 1px solid #1A1A1D;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
-#portf {
+#portfolio {
     text-align: center;
     font-size: 70px;
     margin-top: 300px;
